@@ -1,0 +1,189 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.42</VERSION>
+ <DEVICE>ATmega32</DEVICE>
+ <WORKING_DIR>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\clock.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files\Atmel\AVR Tools\AvrAssembler2\Appnotes\m32def.inc</FILE>
+  <FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\lcd.asm</FILE>
+  <FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\secondtimer.asm</FILE>
+  <FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\keypress.asm</FILE>
+  <FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\menumanager.asm</FILE>
+  <FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\timeentry.asm</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\clock.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\clock.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\clock.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <seconds><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\clock.asm</FILE><LINE>34</LINE></seconds>
+  <minutes><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\clock.asm</FILE><LINE>36</LINE></minutes>
+  <hours><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\clock.asm</FILE><LINE>38</LINE></hours>
+  <timeDisplayEnabled><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\clock.asm</FILE><LINE>40</LINE></timeDisplayEnabled>
+  <alarmEnabled><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\clock.asm</FILE><LINE>42</LINE></alarmEnabled>
+  <alarmOn><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\clock.asm</FILE><LINE>44</LINE></alarmOn>
+  <alarmMinute><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\clock.asm</FILE><LINE>46</LINE></alarmMinute>
+  <alarmHour><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\clock.asm</FILE><LINE>48</LINE></alarmHour>
+  <hourFormat><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\clock.asm</FILE><LINE>50</LINE></hourFormat>
+  <secondsFormat><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\clock.asm</FILE><LINE>52</LINE></secondsFormat>
+  <main><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\clock.asm</FILE><LINE>69</LINE></main>
+  <handleSecondTick><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\secondtimer.asm</FILE><LINE>142</LINE></handleSecondTick>
+  <initialiseLcd><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\lcd.asm</FILE><LINE>4</LINE></initialiseLcd>
+  <initialiseSecondTimer><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\secondtimer.asm</FILE><LINE>5</LINE></initialiseSecondTimer>
+  <menuManagerInit><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\menumanager.asm</FILE><LINE>4</LINE></menuManagerInit>
+  <menuManagerStart><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\menumanager.asm</FILE><LINE>12</LINE></menuManagerStart>
+  <delay><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\clock.asm</FILE><LINE>86</LINE></delay>
+  <waitForDelay><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\clock.asm</FILE><LINE>91</LINE></waitForDelay>
+  <writeCharacterToLcd><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\lcd.asm</FILE><LINE>26</LINE></writeCharacterToLcd>
+  <sendByteToUsart><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\lcd.asm</FILE><LINE>25</LINE></sendByteToUsart>
+  <clearLcd><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\lcd.asm</FILE><LINE>34</LINE></clearLcd>
+  <nextLine><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\lcd.asm</FILE><LINE>46</LINE></nextLine>
+  <sendStringToUsart><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\lcd.asm</FILE><LINE>55</LINE></sendStringToUsart>
+  <writeStringToLcd><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\lcd.asm</FILE><LINE>56</LINE></writeStringToLcd>
+  <sendStringLoop><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\lcd.asm</FILE><LINE>60</LINE></sendStringLoop>
+  <sendFlashStringToUsart><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\lcd.asm</FILE><LINE>73</LINE></sendFlashStringToUsart>
+  <writeFlashStringToLcd><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\lcd.asm</FILE><LINE>74</LINE></writeFlashStringToLcd>
+  <sendFlashStringLoop><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\lcd.asm</FILE><LINE>82</LINE></sendFlashStringLoop>
+  <displayTime><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\secondtimer.asm</FILE><LINE>202</LINE></displayTime>
+  <sixtyAdjustAfterAddition><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\secondtimer.asm</FILE><LINE>43</LINE></sixtyAdjustAfterAddition>
+  <sAdjustHigherNibbleForCarry><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\secondtimer.asm</FILE><LINE>51</LINE></sAdjustHigherNibbleForCarry>
+  <sCheckLowerNibble><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\secondtimer.asm</FILE><LINE>56</LINE></sCheckLowerNibble>
+  <sAdjustLowerNibble><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\secondtimer.asm</FILE><LINE>64</LINE></sAdjustLowerNibble>
+  <sCheckHigherNibble><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\secondtimer.asm</FILE><LINE>68</LINE></sCheckHigherNibble>
+  <sAdjustHigherNibble><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\secondtimer.asm</FILE><LINE>76</LINE></sAdjustHigherNibble>
+  <sFinishDecimalAdjust><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\secondtimer.asm</FILE><LINE>81</LINE></sFinishDecimalAdjust>
+  <twentyFourAdjustAfterAddition><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\secondtimer.asm</FILE><LINE>88</LINE></twentyFourAdjustAfterAddition>
+  <tAdjustHigherNibbleForCarry><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\secondtimer.asm</FILE><LINE>96</LINE></tAdjustHigherNibbleForCarry>
+  <tCheckLowerNibble><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\secondtimer.asm</FILE><LINE>101</LINE></tCheckLowerNibble>
+  <tAdjustLowerNibble><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\secondtimer.asm</FILE><LINE>109</LINE></tAdjustLowerNibble>
+  <tCheckHigherNibble><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\secondtimer.asm</FILE><LINE>113</LINE></tCheckHigherNibble>
+  <tAdjustHigherNibble><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\secondtimer.asm</FILE><LINE>121</LINE></tAdjustHigherNibble>
+  <tDoFinalNumberCheck><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\secondtimer.asm</FILE><LINE>126</LINE></tDoFinalNumberCheck>
+  <tFinishDecimalAdjust><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\secondtimer.asm</FILE><LINE>133</LINE></tFinishDecimalAdjust>
+  <updateInternalTime><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\secondtimer.asm</FILE><LINE>166</LINE></updateInternalTime>
+  <runAlarmSystem><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\secondtimer.asm</FILE><LINE>336</LINE></runAlarmSystem>
+  <leaveInterrupt><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\secondtimer.asm</FILE><LINE>157</LINE></leaveInterrupt>
+  <skipToEnd><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\secondtimer.asm</FILE><LINE>211</LINE></skipToEnd>
+  <showTime><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\secondtimer.asm</FILE><LINE>214</LINE></showTime>
+  <finishedDisplayingTime><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\secondtimer.asm</FILE><LINE>328</LINE></finishedDisplayingTime>
+  <twentyFourHourTime><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\secondtimer.asm</FILE><LINE>237</LINE></twentyFourHourTime>
+  <adjustForTwelveAm><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\secondtimer.asm</FILE><LINE>226</LINE></adjustForTwelveAm>
+  <adjustForPm><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\secondtimer.asm</FILE><LINE>230</LINE></adjustForPm>
+  <showHour><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\secondtimer.asm</FILE><LINE>240</LINE></showHour>
+  <noShowColon><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\secondtimer.asm</FILE><LINE>260</LINE></noShowColon>
+  <showMinutes><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\secondtimer.asm</FILE><LINE>263</LINE></showMinutes>
+  <showAmPm><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\secondtimer.asm</FILE><LINE>302</LINE></showAmPm>
+  <showPm><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\secondtimer.asm</FILE><LINE>319</LINE></showPm>
+  <testForAlarmOn><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\secondtimer.asm</FILE><LINE>348</LINE></testForAlarmOn>
+  <turnAlarmOff><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\secondtimer.asm</FILE><LINE>378</LINE></turnAlarmOff>
+  <finishAlarmHandler><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\secondtimer.asm</FILE><LINE>370</LINE></finishAlarmHandler>
+  <testForAlarmMatch><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\secondtimer.asm</FILE><LINE>355</LINE></testForAlarmMatch>
+  <triggerAlarm><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\secondtimer.asm</FILE><LINE>367</LINE></triggerAlarm>
+  <turnAlarmOn><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\secondtimer.asm</FILE><LINE>389</LINE></turnAlarmOn>
+  <scanForKeypress><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\keypress.asm</FILE><LINE>34</LINE></scanForKeypress>
+  <scanRow><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\keypress.asm</FILE><LINE>38</LINE></scanRow>
+  <checkForRow1><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\keypress.asm</FILE><LINE>67</LINE></checkForRow1>
+  <checkForRow2><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\keypress.asm</FILE><LINE>73</LINE></checkForRow2>
+  <scanColumn><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\keypress.asm</FILE><LINE>95</LINE></scanColumn>
+  <checkForRow3><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\keypress.asm</FILE><LINE>79</LINE></checkForRow3>
+  <checkForRow4><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\keypress.asm</FILE><LINE>85</LINE></checkForRow4>
+  <noKeyPressedRow><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\keypress.asm</FILE><LINE>91</LINE></noKeyPressedRow>
+  <finishKeypadScan><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\keypress.asm</FILE><LINE>156</LINE></finishKeypadScan>
+  <checkForCol1><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\keypress.asm</FILE><LINE>125</LINE></checkForCol1>
+  <checkForCol2><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\keypress.asm</FILE><LINE>132</LINE></checkForCol2>
+  <checkForCol3><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\keypress.asm</FILE><LINE>139</LINE></checkForCol3>
+  <checkForCol4><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\keypress.asm</FILE><LINE>146</LINE></checkForCol4>
+  <noKeyPressedCol><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\keypress.asm</FILE><LINE>153</LINE></noKeyPressedCol>
+  <getCharacter><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\keypress.asm</FILE><LINE>163</LINE></getCharacter>
+  <waitForPress><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\keypress.asm</FILE><LINE>167</LINE></waitForPress>
+  <waitForRelease><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\keypress.asm</FILE><LINE>175</LINE></waitForRelease>
+  <snoozeHandler><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\keypress.asm</FILE><LINE>191</LINE></snoozeHandler>
+  <alarmOffHandler><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\keypress.asm</FILE><LINE>216</LINE></alarmOffHandler>
+  <menuLaunch><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\menumanager.asm</FILE><LINE>18</LINE></menuLaunch>
+  <waitForMainKeypress><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\menumanager.asm</FILE><LINE>25</LINE></waitForMainKeypress>
+  <displayMenu><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\menumanager.asm</FILE><LINE>128</LINE></displayMenu>
+  <upArrowPressed><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\menumanager.asm</FILE><LINE>45</LINE></upArrowPressed>
+  <downArrowPressed><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\menumanager.asm</FILE><LINE>52</LINE></downArrowPressed>
+  <enterPressed><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\menumanager.asm</FILE><LINE>76</LINE></enterPressed>
+  <clockLaunch><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\menumanager.asm</FILE><LINE>39</LINE></clockLaunch>
+  <adjustMenuDisplayPosition><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\menumanager.asm</FILE><LINE>59</LINE></adjustMenuDisplayPosition>
+  <moveMenuDown><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\menumanager.asm</FILE><LINE>68</LINE></moveMenuDown>
+  <moveMenuUp><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\menumanager.asm</FILE><LINE>72</LINE></moveMenuUp>
+  <changeAlarmStatus><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\menumanager.asm</FILE><LINE>87</LINE></changeAlarmStatus>
+  <setAlarm><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\menumanager.asm</FILE><LINE>108</LINE></setAlarm>
+  <setTime><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\menumanager.asm</FILE><LINE>116</LINE></setTime>
+  <changeHourFormat><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\menumanager.asm</FILE><LINE>94</LINE></changeHourFormat>
+  <changeSecondsFormat><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\menumanager.asm</FILE><LINE>101</LINE></changeSecondsFormat>
+  <inputTime><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\timeentry.asm</FILE><LINE>4</LINE></inputTime>
+  <showTopLine><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\menumanager.asm</FILE><LINE>136</LINE></showTopLine>
+  <showTopLineIndicator><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\menumanager.asm</FILE><LINE>145</LINE></showTopLineIndicator>
+  <nonSelectedMarker><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\menumanager.asm</FILE><LINE>300</LINE></nonSelectedMarker>
+  <showTopLineMessage><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\menumanager.asm</FILE><LINE>151</LINE></showTopLineMessage>
+  <selectedMarker><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\menumanager.asm</FILE><LINE>303</LINE></selectedMarker>
+  <showTopLineAlarmStatus><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\menumanager.asm</FILE><LINE>159</LINE></showTopLineAlarmStatus>
+  <showTopLineSetAlarm><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\menumanager.asm</FILE><LINE>162</LINE></showTopLineSetAlarm>
+  <showTopLineSetTime><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\menumanager.asm</FILE><LINE>169</LINE></showTopLineSetTime>
+  <showTopLineHourFormat><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\menumanager.asm</FILE><LINE>176</LINE></showTopLineHourFormat>
+  <displayAlarmMessage><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\menumanager.asm</FILE><LINE>232</LINE></displayAlarmMessage>
+  <showBottomLine><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\menumanager.asm</FILE><LINE>179</LINE></showBottomLine>
+  <setAlarmMessage><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\menumanager.asm</FILE><LINE>316</LINE></setAlarmMessage>
+  <setAlarmMessageEnd><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\menumanager.asm</FILE><LINE>318</LINE></setAlarmMessageEnd>
+  <setTimeMessage><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\menumanager.asm</FILE><LINE>321</LINE></setTimeMessage>
+  <setTimeMessageEnd><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\menumanager.asm</FILE><LINE>323</LINE></setTimeMessageEnd>
+  <displayHourFormatMessage><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\menumanager.asm</FILE><LINE>253</LINE></displayHourFormatMessage>
+  <showBottomLineSpace><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\menumanager.asm</FILE><LINE>189</LINE></showBottomLineSpace>
+  <showBottomLineMessage><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\menumanager.asm</FILE><LINE>195</LINE></showBottomLineMessage>
+  <showBottomLineSetAlarm><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\menumanager.asm</FILE><LINE>203</LINE></showBottomLineSetAlarm>
+  <showBottomLineSetTime><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\menumanager.asm</FILE><LINE>210</LINE></showBottomLineSetTime>
+  <showBottomLineHourFormat><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\menumanager.asm</FILE><LINE>217</LINE></showBottomLineHourFormat>
+  <showBottomLineSecondsFormat><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\menumanager.asm</FILE><LINE>220</LINE></showBottomLineSecondsFormat>
+  <finishDisplayMenu><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\menumanager.asm</FILE><LINE>225</LINE></finishDisplayMenu>
+  <displaySecondsFormatMessage><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\menumanager.asm</FILE><LINE>275</LINE></displaySecondsFormatMessage>
+  <displayAlarmOnMessage><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\menumanager.asm</FILE><LINE>244</LINE></displayAlarmOnMessage>
+  <alarmOffMessage><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\menumanager.asm</FILE><LINE>306</LINE></alarmOffMessage>
+  <alarmOffMessageEnd><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\menumanager.asm</FILE><LINE>308</LINE></alarmOffMessageEnd>
+  <alarmOnMessage><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\menumanager.asm</FILE><LINE>311</LINE></alarmOnMessage>
+  <alarmOnMessageEnd><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\menumanager.asm</FILE><LINE>313</LINE></alarmOnMessageEnd>
+  <displayTwentyFourHourMessage><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\menumanager.asm</FILE><LINE>265</LINE></displayTwentyFourHourMessage>
+  <twelveHourMessage><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\menumanager.asm</FILE><LINE>326</LINE></twelveHourMessage>
+  <twelveHourMessageEnd><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\menumanager.asm</FILE><LINE>328</LINE></twelveHourMessageEnd>
+  <twentyFourHourMessage><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\menumanager.asm</FILE><LINE>331</LINE></twentyFourHourMessage>
+  <twentyFourHourMessageEnd><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\menumanager.asm</FILE><LINE>333</LINE></twentyFourHourMessageEnd>
+  <displaySecondsOnMessage><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\menumanager.asm</FILE><LINE>287</LINE></displaySecondsOnMessage>
+  <secondsOffMessage><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\menumanager.asm</FILE><LINE>336</LINE></secondsOffMessage>
+  <secondsOffMessageEnd><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\menumanager.asm</FILE><LINE>338</LINE></secondsOffMessageEnd>
+  <secondsOnMessage><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\menumanager.asm</FILE><LINE>341</LINE></secondsOnMessage>
+  <secondsOnMessageEnd><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\menumanager.asm</FILE><LINE>343</LINE></secondsOnMessageEnd>
+  <enterTimeMessage><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\timeentry.asm</FILE><LINE>202</LINE></enterTimeMessage>
+  <enterTimeMessageEnd><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\timeentry.asm</FILE><LINE>204</LINE></enterTimeMessageEnd>
+  <getFirstNumber><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\timeentry.asm</FILE><LINE>32</LINE></getFirstNumber>
+  <errorEntry><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\timeentry.asm</FILE><LINE>23</LINE></errorEntry>
+  <errorMessage><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\timeentry.asm</FILE><LINE>207</LINE></errorMessage>
+  <errorMessageEnd><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\timeentry.asm</FILE><LINE>209</LINE></errorMessageEnd>
+  <finishJump><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\timeentry.asm</FILE><LINE>75</LINE></finishJump>
+  <getNumberFromScanCode><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\timeentry.asm</FILE><LINE>151</LINE></getNumberFromScanCode>
+  <getSecondNumber><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\timeentry.asm</FILE><LINE>54</LINE></getSecondNumber>
+  <finish><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\timeentry.asm</FILE><LINE>135</LINE></finish>
+  <showColon><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\timeentry.asm</FILE><LINE>78</LINE></showColon>
+  <getThirdNumber><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\timeentry.asm</FILE><LINE>86</LINE></getThirdNumber>
+  <getFourthNumber><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\timeentry.asm</FILE><LINE>108</LINE></getFourthNumber>
+  <toErrorEntry><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\timeentry.asm</FILE><LINE>146</LINE></toErrorEntry>
+  <key2><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\timeentry.asm</FILE><LINE>156</LINE></key2>
+  <key3><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\timeentry.asm</FILE><LINE>161</LINE></key3>
+  <key4><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\timeentry.asm</FILE><LINE>166</LINE></key4>
+  <key5><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\timeentry.asm</FILE><LINE>171</LINE></key5>
+  <key6><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\timeentry.asm</FILE><LINE>176</LINE></key6>
+  <key7><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\timeentry.asm</FILE><LINE>181</LINE></key7>
+  <key8><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\timeentry.asm</FILE><LINE>186</LINE></key8>
+  <key9><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\timeentry.asm</FILE><LINE>191</LINE></key9>
+  <key0><FILE>C:\Users\brunsa2\Documents\My Dropbox\Embedded Systems 1 (CE 2800)\Week 9\clock\timeentry.asm</FILE><LINE>196</LINE></key0>
+ </LABELS>
+</ASSEMBLER_INFO>
